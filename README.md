@@ -1,9 +1,34 @@
-# Analytics ANS
 
-Esse projeto consiste no desenvolvimento de uma aplicação fullstack completa, contendo as seguintes partes:
-- Um app em python capaz de fazer download, extrair e tratar os dados da Agência Nacional de Saúde Suplementar (ANS)
-- Uma API que servisse os dados extraídos e tratados
-- Uma página em Vue.js que exibisse os dados da API
+# ANS Data Viewer
+
+Aplicação fullstack para consultar e visualizar dados da **Agência Nacional de Saúde Suplementar (ANS)**.
+
+## Problema que resolve
+Os dados da ANS são extensos e complexos, dificultando a análise por profissionais de saúde e consumidores. 
+Esta aplicação limpa, estrutura e apresenta esses dados de forma acessível.
+
+## Tecnologias
+
+### Backend (Python)
+- FastAPI
+- Pandas para limpeza e transformação
+- Requests para consumo da API
+
+### Frontend (Vue)
+- Vue 3 + Composition API
+- Axios para comunicação
+- Vite para build
+
+## Funcionalidades
+- [ ] Listagem de operadoras de saúde
+- [ ] Filtros por estado (UF)
+- [ ] Busca por nome da operadora
+- [ ] Visualização de reclamações
+- [ ] Rankings por indicadores
+
+## Como executar
+
+### Backend
 
 ## Instalação
 Para instalar e utilizar na própria máquina, siga os procedimentos de cada `README.md` em ordem:  
